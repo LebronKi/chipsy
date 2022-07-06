@@ -1,1 +1,142 @@
-.header {}
+header {
+    max-width: 1920px;
+    margin: 0 auto;
+    background: url('../imgs/mainBg.png');
+    height: 1081px;
+    position: relative;
+}
+.header__container{
+    max-width: 1920px;
+    margin: 0 auto;
+}
+.header__row{
+    display: flex;
+    justify-content: space-between;
+    background: #fff;
+}
+.header__burger{
+    width: 100px;
+    height: 100px;
+    background: red;
+}
+.header__select,
+.header__search,
+.header__glass{
+    width: 100px;
+    height: 100px;
+    background: blue;
+}
+.header__options{
+    display: flex;
+    gap: 1px;
+}
+.header__menu{
+    display: flex;
+    justify-content: space-between;
+    width: 1520px;
+}
+.header__list{
+    display: flex;
+    justify-content: center;
+    margin: 40px 0 0 0;
+    font-weight: 700;
+    a{
+        margin: 0 30px;
+        font-size: 16px;
+        font-weight: 700;
+        color: black;
+    }
+}
+.header__img{
+    position:absolute;
+    bottom: -57px;
+    right: 0;
+}
+.header__title{
+    font-size: 80px;
+    color: #fff;
+    margin: 300px  0 0 400px;
+    font-weight: 700;
+}
+.header__text{
+    font-size: 60px;
+    color: #fff;
+    width: 424px;
+    font-weight: 700;
+    margin: 50px  0 0 400px;
+}
+.header__image{
+    display: flex;
+    p{
+        margin: 30px 0 0 10px;
+        font-weight: 700;
+        width: 270px;
+    }
+}
+@media (min-width:320px) and (max-width:320px){
+    
+    header{
+        height: 500px;
+    }
+    .header__container{
+        max-width: 320px;
+        margin: 0 auto;
+    }
+    .header__row{
+        display: flex;
+        background: #fff;
+    }
+    .header__burger{
+        width: 50px;
+        height: 50px;
+        background: red;
+    }
+    .header__select,
+    .header__search,
+    .header__glass{
+        display: none;
+    }
+    .header__options{
+        display: flex;
+        gap: 1px;
+    }
+    .header__menu{
+        display: flex;
+
+        width: 320px;
+    }
+    .header__list{
+        display: none;
+    }
+    .header__img{
+        display: none;
+    }
+    .header__title{
+        font-size: 50px;
+        color: #fff;
+        font-weight: 700;
+        margin: 100px 0 100px 0;
+        text-align: center;
+    }
+    .header__text{
+        font-size: 25px;
+        color: #fff;
+        font-weight: 700;
+        margin: 0 0 0 50px ;
+    }
+    .header__image{
+        display: flex;
+        margin: 0 auto;
+        img{
+            width: 150px;
+            height: 50px;
+        }
+        p{
+            display: none;
+        }
+    }
+    .header__img{
+        width: 150px;
+        height: 150px;
+    }
+}

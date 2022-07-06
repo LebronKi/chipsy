@@ -1,0 +1,189 @@
+.main__container{
+    max-width: 1860px;
+    margin: 0 auto;
+    font-family: 'Roboto';
+    padding: 20px 0 0 0;
+}
+.main__row{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+a{
+    text-decoration:none;
+}
+.main__item{
+    background: url('../imgs/img1.png');
+    height: 500px;
+    width: 600px;
+    text-transform: capitalize;
+    font-size: 60px;
+    padding: 75px 0 0 50px;
+    color: #fff;
+    position: relative;
+    font-weight: bold;
+
+}
+.imgChipsy{
+    position: absolute;
+    bottom: 00px;
+    right: -85px;
+}
+.main__item2{
+    background: url('../imgs/img2.png');
+    height: 500px;
+    width: 600px;
+    text-transform: capitalize;
+    font-size: 60px;
+    padding: 75px 0 0 50px;
+    color: #fff;
+    position: relative;
+    font-weight: bold;
+}
+p{
+    position: relative;
+    z-index: 2;
+}
+.main__item3{
+    background: url('../imgs/img3.png');
+    height: 500px;
+    width: 600px;
+    text-transform: capitalize;;
+    font-size: 60px;
+    padding: 75px 0 0 50px;
+    color: #fff;
+    position: relative;
+    font-weight: bold;
+}
+.main__item4{
+    background: url('../imgs/img4.png');
+    height: 500px;
+    width: 600px;
+    text-transform: capitalize;
+    font-size: 60px;
+    padding: 75px 0 0 50px;
+    color: #fff;
+    position: relative;
+    font-weight: bold;
+}
+.main__item5{
+    background: url('../imgs/img5.png');
+    height: 500px;
+    width: 600px;
+    text-transform: capitalize;
+    font-size: 60px;
+    padding: 75px 0 0 50px;
+    color: #fff;
+    position: relative;
+    font-weight: bold;
+}
+.imgCatalog{
+    background: url('../imgs/catalog.png');
+    height: 500px;
+    width: 600px;
+    font-weight: bold;
+    font-size: 60px;
+    padding: 75px 0 0 50px;
+    color: #fff;
+}
+.text__catalog{
+    width: 222px;
+    height: 158px;
+}
+@media (min-width:320px) and (max-width:320px){
+    .main__container{
+        max-width: 320px;
+        margin: 0 auto;
+        font-family: 'Roboto';
+        padding: 5px 0 0 0;
+    }
+    .main__row{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5px;
+        justify-content: center;
+    }
+    a{
+        text-decoration:none;
+    }
+    .main__item{
+        background: url('../imgs/img1.png');
+        height: 150px;
+        width: 150px;
+        text-transform: capitalize;
+        font-size: 20px;
+        padding: 20px;
+        color: #fff;
+        position: relative;
+        font-weight: bold;
+    
+    }
+    .imgChipsy{
+        width: 120px;
+        height: 120px;
+        position: absolute;
+        bottom: 0px;
+        right: 0px;
+    }
+    .main__item2{
+        background: url('../imgs/img2.png');
+        height: 150px;
+        width: 150px;
+        text-transform: capitalize;
+        font-size: 20px;
+        padding: 20px;
+        color: #fff;
+        position: relative;
+        font-weight: bold;
+    }
+    p{
+        position: relative;
+        z-index: 2;
+    }
+    .main__item3{
+        background: url('../imgs/img3.png');
+        height: 150px;
+        width: 150px;
+        text-transform: capitalize;;
+        font-size: 20px;
+        padding: 20px;
+        color: #fff;
+        position: relative;
+        font-weight: bold;
+    }
+    .main__item4{
+        background: url('../imgs/img4.png');
+        height: 150px;
+        width: 150px;
+        text-transform: capitalize;
+        font-size: 20px;
+        padding: 20px 0 0 10px;
+        color: #fff;
+        position: relative;
+        font-weight: bold;
+    }
+    .main__item5{
+        background: url('../imgs/img5.png');
+        height: 150px;
+        width: 150px;
+        text-transform: capitalize;
+        font-size: 20px;
+        padding: 20px;
+        color: #fff;
+        position: relative;
+        font-weight: bold;
+    }
+    .imgCatalog{
+        background: url('../imgs/catalog.png');
+        height: 150px;
+        width: 150px;
+        font-weight: bold;
+        font-size: 20px;
+        padding: 20px  0 0 10px;
+        color: #fff;
+    }
+    .text__catalog{
+        width: 222px;
+        height: 158px;
+    }
+}

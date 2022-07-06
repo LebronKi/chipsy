@@ -1,0 +1,112 @@
+.map__container {
+    max-width: 1920px;
+    margin: 0 auto;
+}
+.map__row{
+    display: flex;
+    max-width: 1920px;
+}
+.map__item1 {
+    width: 960px;
+    background: url('../imgs/potato.png');
+    height: 713px;
+}
+.map__item2 {
+    width: 960px;
+    background: url('../imgs/map1.png');
+    background-size: cover;
+    height: 713px;
+}
+.map__title{
+    text-align: center;
+    margin: 100px 0 50px;
+    font-size: 50px;
+    font-weight: 700;
+    color:#fff;
+}
+.map__text{
+    width: 480px;
+    height: 77px;
+    margin: 0 0 50px 335px;
+    color:#fff;
+}
+.img1{
+    margin: 0 0 50px 330px;
+}
+.map__title2{
+    margin: 100px 0 50px 50px;
+    font-size: 50px;
+    font-weight: 700;
+    color:#fff;
+}
+.map__text2{
+    width: 480px;
+    height: 77px;
+    margin: 0 0 50px 50px;
+    color:#fff;
+}
+.img2{
+    margin: 0 0 50px 50px;
+}
+@media (min-width:320px) and (max-width:320px){
+    .map__container {
+        max-width: 1920px;
+        margin: 0 auto;
+    }
+    .map__row{
+        display: flex;
+        flex-direction: column;
+        max-width: 320px;
+    }
+    .map__item1 {
+        width: 320px;
+        background: url('../imgs/potato.png');
+        height: 250px;
+    }
+    .map__item2 {
+        width: 320px;
+        background: url('../imgs/map1.png');
+        background-size: cover;
+        height: 250px;
+    }
+    .map__title{
+        text-align: center;
+        margin: 10px 0;
+        font-size: 25px;
+        font-weight: 700;
+        color:#fff;
+    }
+    .map__text{
+    width: 320px;
+    text-align: center;
+    font-size:12px;
+    margin: 0;
+    color:#fff;
+}
+    .img1{
+        width: 150px;
+        height: 80px;
+        object-fit: cover;
+        margin:20px 0 0 85px;
+    }
+    .map__title2{
+        text-align: center;
+        margin: 10px 0;
+        font-size: 25px;
+        font-weight: 700;
+        color:#000;
+    }
+    .map__text2{
+        width: 320px;
+        text-align: center;
+        font-size:12px;
+        margin: 0;
+        color:#000;
+    }
+    .img2{
+        width: 150px;
+        height: 80px;
+        object-fit: cover;
+        margin:20px 0 0 85px;
+    }
+}
